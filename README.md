@@ -4,7 +4,7 @@
 
 Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
-> “Bel” in French means beautiful — this is your beautiful résumé!
+> “Bel” in French means beautiful — this is your beautiful resumé!
 
 ## Preview
 
