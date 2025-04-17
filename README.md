@@ -8,7 +8,7 @@ Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
 ## Preview
 
-[BelResumé](https://cx48.github.io/BelResumePreview/) can be deployed for free using GitHub Pages or Vercel
+[BelResumé](https://cx48.github.io/BelResume/) can be deployed for free using GitHub Pages or Vercel
 
 #### Light Mode
 
@@ -35,17 +35,21 @@ Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
 ## Quick Start
 
-1. **Install Zola**: [https://getzola.org/documentation/getting-started/installation/](https://getzola.org/documentation/getting-started/installation/)  
+1. **Install Zola**: [https://getzola.org/documentation/getting-started/installation/](https://getzola.org/documentation/getting-started/installation/) 
+
 2. **Clone repository**:
    ```bash
-   git clone <repo-url> BelResume
+   git clone https://github.com/cx48/BelResume
    cd BelResume
    ```
+
 3. **Serve locally**:
    ```bash
    zola serve
    ```
-   Visit [http://127.0.0.1:1111](http://127.0.0.1:1111)  
+
+   After making necessary changes to HTML files present under `partials/` visit [http://127.0.0.1:1111](http://127.0.0.1:1111)
+
 4. **Build static site**:
    ```bash
    zola build
@@ -60,22 +64,29 @@ Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
    ```bash
    zola build
    ```
+
 2. Commit and push the contents of the `public/` folder to your `gh-pages` branch
+
 3. In GitHub repo settings, enable Pages from the `/public` folder or `gh-pages` branch
+
 4. Your site will be live at `https://yourusername.github.io/BelResume/`
 
 > Deploy to Vercel
 
 1. Login to [Vercel](https://vercel.com) and import your GitHub repo
+
 2. Set **Build Command** to:
    ```bash
    zola build
    ```
+
 3. Set **Output Directory** to:
    ```bash
    public
    ```
+
 4. Set **Framework Preset** to `Other`
+
 5. Click **Deploy**
 
 Zola will build and serve from the `public/` folder automatically on every push
