@@ -1,7 +1,10 @@
 # The URL the site will be built for
 title = "BelResumé"            # Your site name
 description = "John Doe | Senior Software Engineer"  # Shown in meta and hero
-base_url = "http://cx48.github.io/BelResumé"
+base_url = "https://yourdomain.com"
+
+# Use base_url present below if deploying using GitHub Pages
+# base_url = "http://yourusername.github.io/BelResume"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
