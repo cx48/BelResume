@@ -1,8 +1,8 @@
 # BelResumé
 
-**A beautiful, modern, and minimal single-page resume site** 
+***A beautiful, modern, and minimal single-page resume site***
 
-Powered by ![Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome.
+Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome.
 
 > 💡 “Bel” in French means beautiful — this is your beautiful résumé!
 
@@ -18,7 +18,7 @@ Powered by ![Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesom
 
 ## Project Structure
 
-- **config.toml**: Site metadata & features  
+- **config.toml**: Site metadata  
 - **static/**: `css/style.css`, `js/script.js`  
 - **templates/index.html**: Main layout (calls all partials)  
 - **templates/partials/**: All resume sections are modular
@@ -52,7 +52,8 @@ Powered by ![Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesom
 
 ## Deployment Guide
 
-### Deploy to GitHub Pages
+> Deploy to GitHub Pages
+
 1. Run Zola build:
    ```bash
    zola build
@@ -61,8 +62,9 @@ Powered by ![Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesom
 3. In GitHub repo settings, enable Pages from the `/public` folder or `gh-pages` branch
 4. Your site will be live at `https://yourusername.github.io/BelResume/`
 
-### Deploy to Vercel
-1. Login to [Vercel](https://vercel.com) and import your GitHub repo.
+> Deploy to Vercel
+
+1. Login to [Vercel](https://vercel.com) and import your GitHub repo
 2. Set **Build Command** to:
    ```bash
    zola build
@@ -71,14 +73,14 @@ Powered by ![Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesom
    ```bash
    public
    ```
-4. Set **Framework Preset** to `Other`.
-5. Click **Deploy**.
+4. Set **Framework Preset** to `Other`
+5. Click **Deploy**
 
 Zola will build and serve from the `public/` folder automatically on every push
 
 ## Customization Guide
 
-To update your resume, simply open the partial files listed below and modify content using basic HTML
+To update your resume, simply open the required HTML file under `partials/` and modify it as per your requirement
 
 ### 1. **config.toml**  
 Update site-wide metadata:
@@ -144,7 +146,7 @@ Change language names, levels, and progress widths:
 Highlight awards with name and source:
 ```html
 <h3>Best Hackathon Project</h3>
-<p>DefCon 2019</p>
+<p>DefCon 2025</p>
 ```
 
 ## Get in Touch
@@ -152,4 +154,4 @@ Highlight awards with name and source:
 Have feedback, questions, or just want to say hello?  
 Feel free to [open an issue](https://github.com/cx48/BelResume/issues) or reach out directly:
 
-**Check my GitHub profile for contact links**
+> Check my GitHub profile for contact links
