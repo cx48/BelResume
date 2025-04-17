@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: http://cx48.github.io/BelResumePreview/sitemap.xml
