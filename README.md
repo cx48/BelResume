@@ -2,11 +2,13 @@
 
 ***A beautiful, modern, and minimal single-page resume site***
 
-Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome.
+Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
-> 💡 “Bel” in French means beautiful — this is your beautiful résumé!
+> “Bel” in French means beautiful — this is your beautiful résumé!
 
 ## Preview
+
+[BelResumé](https://cx48.github.io/BelResumePreview/) can be deployed for free using GitHub Pages or Vercel
 
 #### Light Mode
 
