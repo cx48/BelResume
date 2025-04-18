@@ -18,6 +18,10 @@ Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
 ![Dark Mode](screenshots/dark.png)
 
+#### PageSpeed Insights
+
+![PageSpeed](screenshots/pagspeed.png)
+
 ## Project Structure
 
 - **config.toml**: Site metadata  
