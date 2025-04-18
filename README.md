@@ -12,15 +12,15 @@ Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
 #### Light Mode
 
-![Light Mode](screenshots/light.png)
+![Light Mode](static/images/light.png)
 
 #### Dark Mode
 
-![Dark Mode](screenshots/dark.png)
+![Dark Mode](static/images/dark.png)
 
 #### PageSpeed Insights
 
-![PageSpeed](screenshots/pagspeed.png)
+![PageSpeed](static/images/pagespeed.png)
 
 ## Project Structure
 
