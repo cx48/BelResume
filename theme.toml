@@ -1,6 +1,5 @@
 name = "BelResume"
 description = "A beautiful, modern, and minimal single-page resume site"
-tags = ['minimal','resume']
 license = "MIT"
 homepage = "https://github.com/cx48/BelResume"
 min_version = "0.20.0"
