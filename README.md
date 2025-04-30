@@ -12,15 +12,15 @@ Powered by [Zola](https://getzola.org/). Styled with Tailwind CSS & Font Awesome
 
 #### Light Mode
 
-![Light Mode](static/images/light.png)
+![Light Mode](https://raw.githubusercontent.com/cx48/BelResume/refs/heads/main/static/images/light.png)
 
 #### Dark Mode
 
-![Dark Mode](static/images/dark.png)
+![Dark Mode](https://raw.githubusercontent.com/cx48/BelResume/refs/heads/main/static/images/dark.png)
 
 #### PageSpeed Insights
 
-![PageSpeed](static/images/pagespeed.png)
+![PageSpeed](https://raw.githubusercontent.com/cx48/BelResume/refs/heads/main/static/images/pagespeed.png)
 
 ## Project Structure
 
